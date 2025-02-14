@@ -1,3 +1,89 @@
-td {
+img {
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.wrapper {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-self: space around;
+    gap: 5rem;
     border: 2px solid black;
+    box-shadow: 4px 2px;
+    border-radius: 4px;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+.intro{
+    flex: 1;
+}
+
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: white;
+}
+
+.first-pic {
+    border-radius: 50%;
+}
+
+li {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    background-color: black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.vitals {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtext {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtextdiv {
+    margin-top: 0;
+}
+
+.Others {
+    margin-bottom: 0;
+}
+
+.column-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.column1img{
+    border-radius: 15px;
+    width: 250px;
+    margin: 5px;
+}
+
+.column1img-Quote {
+    border: 2px solid black;
+    border-radius: 10px;
 }
